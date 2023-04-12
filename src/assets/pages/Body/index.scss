@@ -1,0 +1,19 @@
+.body {
+    width: 100%;
+    padding: 5px 20px;
+    &__wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        &_box {
+            width: 255px;
+            background: #F0F9FF;
+            padding: 14px 20px;
+            border-radius: 8px;
+            &--status {
+                width: 56px;
+                margin-left: auto;
+            }
+        }
+    }
+}
